@@ -4,9 +4,9 @@ const date = new Date()
 export default function HomePage() {
     return (
         <main className="pt-15 bg-gray-100">
-            <div className="max-w-2xl mx-auto p-5 rounded bg-white rounded-2xl">
+            <div className="max-w-2xl mx-auto p-3 rounded bg-white rounded-2xl">
                 <div className="flex my-6">
-                    <h2 className="font-extrabold mr-5">Курс валют</h2>
+                    <h2 className="font-extrabold mr-4">Курс валют</h2>
                     <p className="text-gray-400 font-bold">{ date.toLocaleDateString('ru-RU')}</p>
                 </div>
               <ValyutaList />
