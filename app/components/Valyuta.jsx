@@ -36,7 +36,7 @@ function ValyutaList() {
       key: 'Ccy',
       render: (record) => (
         <>
-          <div className="flex items-center gap-3  " >
+          <div className="flex items-center gap-3  max-w-28" >
             {getFlagUrl(record.Ccy) && (
               <img className="rounded-full" src={getFlagUrl(record.Ccy)} alt={record.Ccy} width={25} height={25} />
             )}
